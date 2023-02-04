@@ -5,7 +5,7 @@
 // 1, -7, 567, 89, 223-> 3
 
 
-Console.Write("Уnter the values separated by a space: ");
+Console.Write("Enter the values separated by a space: ");
 string Values = Convert.ToString(Console.ReadLine());
 
 string[] X = Values.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
